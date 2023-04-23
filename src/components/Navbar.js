@@ -38,6 +38,7 @@ const NavContainer = styled.nav`
   display: flex;
   align-items: center;
   justify-content: center;
+  box-shadow: var(--header-shadow);
 
   .nav-center {
     width: 90vw;

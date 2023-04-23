@@ -1,10 +1,21 @@
-/*
-=============== 
-Variables
-===============
-*/
-
+/* Variables */
 :root {
+
+  /* logo colors */
+  --clr-logo-shop:hsl(237.21,36.75%,54.12%);
+  --clr-logo-jet:hsl(246.32,94.06%,80.2%);
+
+  /* Blue Color Palettes */
+  --clr-blue-1:hsl(206, 97%, 15%);
+  --clr-blue-2:hsl(205, 98%, 20%);
+  --clr-blue-3:hsl(205, 98%, 25%);
+  --clr-blue-4:hsl(205, 98%, 26%);
+  --clr-blue-5:hsl(202, 56%, 38%);
+  --clr-blue-6:hsl(198, 43%, 48%);
+  --clr-blue-7:hsl(197, 51%, 69%);
+
+  /* pink Color Palettes */
+
   /* dark shades of primary color*/
   --clr-primary-1: hsl(22, 28%, 21%);
   --clr-primary-2: hsl(22, 28%, 29%);
@@ -44,6 +55,10 @@ Variables
   --max-width: 1170px;
   --fixed-width: 620px;
   --font-weight-bold: 700;
+  --box-shadow-1: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  --box-shadow-2: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  --header-shadow: rgba(27, 31, 35, 0.08) 0px 1px 0px, rgba(255, 255, 255, 0.8) 0px 1px 0px inset;
+  --footer-shadow: rgba(0, 0, 0, 0.09) 0px 2px 4px 0px inset;
 }
 /*
 =============== 

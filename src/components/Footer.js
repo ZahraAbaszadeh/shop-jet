@@ -6,6 +6,7 @@ const Footer = () => {
       <h5>
         &copy; {new Date().getFullYear()} <span>Shop Jet</span>
       </h5>
+      &nbsp;
       <h5>All Rights Reserved.</h5>
     </Wrapper>
   );
@@ -17,18 +18,18 @@ const Wrapper = styled.footer`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: var(--clr-grey-1);
+  background: var(--clr-logo-shop);
+  box-shadow: var(--footer-shadow);
   text-align: center;
   span {
-    color: var(--clr-primary-5);
+    color: var(--clr-logo-jet);
+    font-weight: var(--font-weight-bold);
   }
   h5 {
     color: var(--clr-white);
-    margin: 0.1rem;
 
-    font-weight: 400;
     text-transform: none;
-    line-height: 1.25;
+    margin: 0;
   }
   @media (min-width: 776px) {
     flex-direction: row;
